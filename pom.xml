@@ -20,6 +20,7 @@
     </properties>
     <modules>
         <module>server</module>
+        <module>resource</module>
     </modules>
     <dependencies>
         <dependency>
