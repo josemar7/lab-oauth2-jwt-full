@@ -1,0 +1,1 @@
+web: java -Dserver.port=9000 -jar server/target/server-0.0.1-SNAPSHOT.jar
