@@ -85,7 +85,7 @@ public class AuthorizationServerConfiguration extends AuthorizationServerConfigu
     }
 
     @Override
-    public void configure(final AuthorizationServerEndpointsConfigurer endpoints) throws Exception {
+    public void configure(final AuthorizationServerEndpointsConfigurer endpoints) {
         endpoints.authenticationManager(this.authenticationManager)
                 .accessTokenConverter(jwtAccessTokenConverter())
                 .userDetailsService(this.userDetailsService)
